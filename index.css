@@ -14,7 +14,7 @@
 
   .App {
     text-align: center;
-    height:4050px;
+    height:3850px;
     background-color:black;
   }
 
@@ -882,4 +882,8 @@
       margin-top: 10px;
       font-family: 'Oswald', sans-serif;
       font-weight: bold;
+    }
+
+    .shoplink{
+      color: black;
     }
