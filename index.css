@@ -14,7 +14,7 @@
 
   .App {
     text-align: center;
-    height:3850px;
+    height:3700px;
     background-color:black;
   }
 
@@ -114,23 +114,29 @@
   
   .songone{
     background: url('songone.png');
-    width: 80%;
+    width: 50%;
     border-radius: 60px;
     background-position: center;
-    margin-left: 10%;
+    background-size: cover;
+    background-repeat: repeat;
+    margin-left: 25%;
     margin-right: auto;
     display: block;
+    height: 250px;
+    height: 250px;
     margin-top: 200px;
   }
   
   .songtwo{
     background: url('songtwo.png');
-    width: 80%;
+    width: 50%;
     border-radius: 60px;
     background-position: center;
-    margin-left: 60%;
-    margin-top: 80px;
-    margin-left: 10%;
+    background-size: cover;
+    background-repeat: repeat;
+    margin-left: 25%;
+    margin-top: 200px;
+    height: 250px;
   }
   
   .play{
@@ -140,9 +146,13 @@
   
   h3{
     color:white;
-    margin-top: 120px;
+    margin-top: 320px;
+    position: absolute;
     font-size: 35px;
     font-family: 'Oswald', sans-serif;
+    text-align:center;
+    width:80%;
+    margin-left:-15%;
   }
   
   .blog{
@@ -220,11 +230,18 @@
     margin-top: 10px;
   }
   
-  .productimagethree{
-    width: 60%;
-    margin-top: 10px;
+  .shirt{
+    width:60%;
   }
   
+  .sticker{
+    width:60%;
+  }
+
+  .hat{
+    width:60%;
+  }
+
   .footer{
       height: 500px;
       width: 100%;
@@ -281,7 +298,7 @@
 
     .App {
       text-align: center;
-      height:3550px;
+      height:3450px;
       background-color:black;
     }
 
@@ -311,7 +328,7 @@
 
     .App8 {
       text-align: center;
-      height:1400px;
+      height:1600px;
       background-color:black;
     }
 
@@ -365,9 +382,11 @@
       width: 30%;
       border-radius: 40px;
       background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
       margin-left: 10%;
       display: block;
-      margin-top: 200px;
+      margin-top: 100px;
       height: 400px;
     }
     
@@ -376,6 +395,8 @@
       width: 30%;
       border-radius: 60px;
       background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
       margin-left: 60%;
       margin-top: -400px;
       height: 400px;
@@ -388,9 +409,11 @@
     
     h3{
       color:white;
-      margin-top: 150px;
+      margin-top: 450px;
       font-family: 'Oswald', sans-serif;
       font-size: 30px;
+      position: absolute;
+      margin-left: 10%;
     }
     
     .blog{
@@ -471,8 +494,24 @@
       width: 80%;
       margin-top: 10px;
     }
+
+    .productimage{
+      width: 60%;
+      margin-top: 10px;
+    }
+
+
+    .shirt{
+      width: 60%;
+      margin-top: 10px;
+    }
     
-    .productimagethree{
+    .sticker{
+      width: 60%;
+      margin-top: 10px;
+    }
+
+    .hat{
       width: 60%;
       margin-top: 10px;
     }
@@ -501,7 +540,7 @@
     .resources{
       width: 80%;
       margin-left: 10%;
-      height: 900px;
+      height: 1200px;
       background-color: white;
       margin-top:120px;
       position: absolute;
@@ -667,6 +706,9 @@
 
     .date{
       color: grey;
+      text-align: center;
+      width: 80%;
+      margin-left: 10%;
     }
 
     h1{
@@ -689,7 +731,7 @@
     .resources{
       width: 80%;
       margin-left: 10%;
-      height: 1200px;
+      height: 1400px;
       background-color: white;
       margin-top:120px;
       position: absolute;
@@ -718,13 +760,18 @@
     }
 
     .articledate{
-      margin-top:10px;
       color: grey;
       text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .articleauthor{
       text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .content{
@@ -887,3 +934,9 @@
     .shoplink{
       color: black;
     }
+
+    .productpageimage{
+      width: 40%;
+      margin-top: -20px;
+    }
+
