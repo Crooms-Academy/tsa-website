@@ -20,7 +20,7 @@
 
   .App2 {
     text-align: center;
-    height:3520px;
+    height:3900px;
     background-color:black;
   }
   
@@ -235,11 +235,11 @@
   }
   
   .sticker{
-    width:60%;
+    width:50%;
   }
 
   .hat{
-    width:60%;
+    width:62%;
   }
 
   .footer{
@@ -262,8 +262,11 @@
   h4{
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 10%;
   }
+  
   }
   
   @media screen and (min-width: 800px) {
@@ -304,7 +307,7 @@
 
     .App2 {
       text-align: center;
-      height:3780px;
+      height:3980px;
       background-color:black;
     }
     
@@ -502,7 +505,7 @@
 
 
     .shirt{
-      width: 60%;
+      width: 65%;
       margin-top: 10px;
     }
     
@@ -512,7 +515,7 @@
     }
 
     .hat{
-      width: 60%;
+      width: 68%;
       margin-top: 10px;
     }
     
@@ -797,8 +800,8 @@
 
     .postlink{
       color: black;
-      width: 40%;
       height: 350px;
+      width: 40%;
     }
 
     .backlink{
